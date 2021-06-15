@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'email_required' => 'Email không được để trống',
+    'email_email' => 'Định dạng email không hợp lệ',
+    'email_unique' => 'Email đã được sử dụng',
+    'full_name_required' => 'Họ tên không được để trống',
+    'full_name_min' => 'Họ tên phải chứa ít nhất :name ký tự',
+    'full_name_max' => 'Họ tên phải chứa tối đa :name ký tự',
+    'department_required' => 'Phòng ban không được để trống',
+    'department_numeric' => 'Định dạng dữ liệu phòng ban không hợp lệ',
+    'password_required' => 'Mật khẩu không được để trống',
+    'password_min' => 'Mật khẩu phải ít nhất :name ký tự',
+    'phone_numeric' => 'Số điện thoại không hợp lệ',
+    'role_required' => 'Vai trò không được để trống',
+    'role_numeric' => 'Định dạng dữ liệu vai trò không hợp lệ',
+    'image_required' => 'Bạn phải chọn hình ảnh trước khi upload',
+    'image_image' => 'Định dạng file không hợp lệ',
+    'image_dimensions' => 'Kích thước không hợp lệ, chiều rộng tối đa :width, chiều cao tối đa :height',
+    'image_mimes' => 'Định dạng hình ảnh không hợp lệ, chỉ chấp nhận :name',
+    'image_max' => 'Kích thước file hình ảnh tối đa :size Mb',
+    'serve_error' => 'server error',
+    'user_not_found' => 'Tài khoản không tồn tại',
+    'user_conflict' => 'Đã xảy ra xung đột, Bạn không có quyền xóa tài khoản của chính mình',
+    'user_created' => 'Tạo tài khoản thành công',
+    'user_deleted' => 'Xóa tài khoản thành công',
+    'user_image_upload' => 'Ảnh đại diện được cập nhật',
+];

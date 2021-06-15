@@ -1,0 +1,263 @@
+@keyframes background {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 500px 0;
+    }
+}
+
+
+
+
+.leftSideLogo{
+    width: 207px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    position: relative;
+}
+
+#loginForm{
+
+}
+
+.d{
+    color: red;
+}
+
+.dashboardClient{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 5px 40px, rgba(0, 0, 0, 0.1) 0 5px 10px;
+    position: fixed;
+    width: 503px;
+    height: 400px;
+    left: 217px;
+    top: 20%;
+
+}
+
+.form-content{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 11%;
+
+}
+
+.emailInput{
+    width: 416px;
+    height: 35px;
+}
+
+#passwordInput{
+    width: 416px;
+    height: 42px;
+}
+
+.titleLoginForm{
+    font-size: 110%;
+
+}
+
+/*#subtitleLoginForm{*/
+/*    font-weight: bold;*/
+/*}*/
+
+#a{
+    margin: 0 auto;
+}
+
+#btnLogin{
+    background-color: #ff8f22;
+    border: none;
+    /*position: fixed;*/
+    text-align: center;
+    text-decoration: none;
+    margin-left: 295px;
+    margin-right: 1%;
+    margin-top: 2%;
+    cursor: pointer;
+
+    /*width: 100px;*/
+    /*height: 40px;*/
+    color: white;
+    width: 120px;
+    height: 35px;
+    position: fixed;
+
+}
+
+#btnLogin:hover{
+    background-color: #ffce34;
+    opacity: 0.8;
+}
+
+#togglePassword{
+    margin-left: 370px;
+    cursor: pointer;
+}
+
+#checkMailTTC{
+    width: 416px;
+    height: 35px;
+    padding: 10px 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#passwordInput {
+    width: 416px;
+    height: 35px;
+    padding: 10px 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.forUserName {
+    position: relative;
+
+}
+
+.forUserName i{
+    position: absolute;
+    left: 15px;
+    top: 50px;
+    color: gray;
+}
+
+.forUserPassword{
+    /*margin-top: 10px;*/
+    position: relative;
+}
+
+.forUserPassword i {
+    position: absolute;
+    left: 15px;
+    top: 50px;
+    color: gray;
+}
+
+.titleForm{
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+
+    /*margin-top: 10%;*/
+    top: 40px;
+}
+
+.rightBackgroundDoor{
+    position: fixed;
+    width: 475px;
+    height: 284px;
+    left: 745px;
+    top: 30%;
+}
+
+#forgotPass{
+    margin-left: 200px;
+}
+
+
+/*FORGOT PASSWORD ZONE*/
+#sendMailBtn{
+    background-color: #ff8f22;
+    border: none;
+    width: 100%;
+    /*position: fixed;*/
+    text-align: center;
+    text-decoration: none;
+
+
+
+    margin-right: 60%;
+    cursor: pointer;
+    margin-top: 10%;
+    /*width: 100px;*/
+    /*height: 40px;*/
+    padding: 5px 24px;
+
+    display: block;
+    outline: none;
+    /*background-color: var(--light);*/
+
+    height: 50px;
+    /*border-radius: 30px;*/
+    /*font-size: 1.5rem;*/
+    /*font-weight: 600;*/
+    color: white;
+    background-size: 100% 100%;
+    /*box-shadow: 0 0 0 10px var(--light) inset;*/
+
+    /*!*hoac*!*/
+
+    /*!*box-shadow: rgba(0, 0, 0, 0.1) 0 5px 40px, rgba(0, 0, 0, 0.1) 0 5px 10px;*!*/
+
+
+
+    /*background-image: linear-gradient(*/
+    /*    160deg,*/
+    /*    transparent 10%,*/
+    /*    var(--dark) 10% 20%,*/
+    /*    transparent 20% 30%,*/
+    /*    var(--dark) 30% 40%,*/
+    /*    transparent 40% 50%,*/
+    /*    var(--dark) 50% 60%,*/
+    /*    transparent 60% 70%,*/
+    /*    var(--dark) 70% 80%,*/
+    /*    transparent 80% 90%,*/
+    /*    var(--dark) 90% 100%*/
+    /*);*/
+    /*!*tốc độ thanh truyền*!*/
+    /*animation: background 4s linear infinite;*/
+}
+
+#sendMailBtn:hover{
+    background-color: #ffce34;
+    opacity: 0.8;
+}
+
+.forUserForgotPassword{
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.forUserForgotPassword #forgotI{
+    position: absolute;
+    left: 15px;
+    top: 55px;
+    color: gray;
+}
+
+.rightBackgroundForgotPassword{
+    /*padding: 1% 3%;*/
+    border: none;
+    cursor: default;
+    /*opacity: 0.8;*/
+    position: relative;
+    bottom: 420px;
+    left: 54%;
+    width: 400px;
+    height: 450px;
+
+    margin-left: 51%;
+
+    /*moi upte vao xem*/
+    /*margin-bottom: 20%;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*object-fit: cover;*/
+}
+
+#returnToLogin{
+    margin-top: 20%;
+}
+
+.msgZone{
+    position: fixed;
+}
